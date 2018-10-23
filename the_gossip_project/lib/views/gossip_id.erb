@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            The Gossip Project
+        </title>
+    </head>
+    <body>
+        <h1>PAGE POTIN!</h1>
+        <br><br><br>
+        <div>Voici la page du potin n <%= params[:id] %><br/></div>
+        <div>Son auteur : <%= Gossip.find(params[:id][0]) %></div>
+        <div>Le contenu du potin : content</div>
+       <a href="/">Lien pour revenir à la page des potins</a> <br>
+    </body>
+</html>
+
+
+
+
